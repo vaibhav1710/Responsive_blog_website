@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBlog - A heaven for bloggers</title>
+    <link rel="stylesheet" href="css/util.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blogpost.css" />
+    <link rel="stylesheet" href="css/mobile.css">
+  </head>
+  <body>
+    <nav class="navigation max-width-1 m-auto my-2">
+      <div class="nav-left">
+        <a href="/">
+          <span><img src="img/logo.png" alt="Logo" width="84px" /></span
+        ></a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form action="/search.html" method="get">
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Search this website"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+      <hr />
+    </div>
+    <div class="post-img">
+      <img
+        src="img/arti1.jpg"
+        width="600"
+        height="337"
+        style="height: 677px"
+        alt="aricle-image"
+      />
+    </div>
+    <div class="blog-post max-width-1 m-auto my-2">
+      <h1>The heaven for bloggers</h1>
+      <div class="blog-metadata">
+        <div class="author-info">
+          <div>
+            <b>By Vaibhav Singh</b>
+            
+          </div>
+          <div>
+            7th April | 8 min read
+          </div>
+        </div>
+        <div class="social">
+        
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33" fill="#A8A8A8"></path></svg>
+          <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33" fill="#A8A8A8"></path></svg> -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z" fill="#A8A8A8"></path></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71" fill="#A8A8A8"></path></svg>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Impedit accusamus iure nulla voluptatum debitis corrupti 
+         corporis, expedita error amet aperiam totam tenetur nam 
+         ratione autem quis sapiente omnis, eligendi molestiae nisi, 
+         nihil nesciunt repudiandae adipisci. Ut adipisci, fuga 
+         consequuntur ad laboriosam quidem pariatur eveniet sit 
+         omnis harum sed illum doloremque.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim voluptatibus earum sunt? Dolore et dolor tenetur debitis saepe dicta deleniti? Iure commodi a vero porro, fuga officia recusandae quod assumenda debitis. Perferendis perspiciatis consectetur soluta sapiente doloremque recusandae nemo natus, quia esse quos, architecto excepturi cupiditate ullam maiores! Ea mollitia id vel aliquam harum perspiciatis ipsum atque numquam et labore, aperiam dolores corporis, ullam quae dignissimos ratione quas accusamus rem illum doloribus asperiores repudiandae! Iusto sequi, ad delectus, placeat vel velit expedita minus esse autem, consequuntur similique. Molestias harum blanditiis impedit facere itaque placeat atque magni earum vel, beatae iure velit, perferendis sed debitis quia illo expedita repudiandae. Natus dolores nihil quibusdam blanditiis, accusamus debitis. Perspiciatis labore numquam esse amet ratione, voluptatibus modi vero expedita quaerat provident error non repellendus iusto saepe, obcaecati quibusdam vel culpa molestias et omnis ipsam atque iure at. Dicta minima, vel earum possimus rem iusto itaque tempora nemo eum quis et voluptatem totam. Accusantium modi commodi possimus est ex assumenda recusandae mollitia! Consequatur voluptas, maiores maxime quaerat amet aliquid placeat ipsum architecto enim soluta sed unde magni. Assumenda quisquam, sint repellendus culpa aut voluptas veritatis officiis fugiat officia, quos unde facilis. Quisquam veniam quidem, numquam optio voluptates veritatis saepe a consectetur nam natus cupiditate ex laborum voluptas aliquam esse sint molestias voluptatibus provident! Incidunt placeat voluptate sit odio similique fuga accusantium eius deleniti quibusdam et corrupti aliquid quia laboriosam soluta qui, sapiente adipisci ullam odit molestiae perspiciatis explicabo dolorem. Minima harum at earum veniam suscipit magni vel id quisquam officiis facilis, animi, eos obcaecati temporibus similique mollitia nostrum, molestiae nobis quo. Veniam alias minima voluptate rerum officiis neque eveniet ipsa commodi excepturi, consequatur fuga dignissimos unde reiciendis laborum maxime assumenda quas laboriosam cupiditate sit? Vero, officiis quisquam? Quasi exercitationem amet ullam consectetur enim voluptatibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, error odit quam velit quod labore natus. Perspiciatis doloremque tempora, quas totam non dolor id repellendus exercitationem earum consequatur, praesentium dolorum aliquid voluptate itaque. Quo cum similique magnam veritatis officia! Fugiat voluptas, perspiciatis voluptate, velit dolore aliquam expedita rerum nisi, blanditiis deleniti vero ut. Inventore facilis omnis vel tenetur placeat veniam modi repudiandae ducimus culpa velit mollitia, voluptates perferendis corrupti deleniti vitae eaque, aspernatur consequuntur est suscipit. Nobis repellat ipsa nisi, ducimus velit hic at placeat labore aliquid accusantium ea tenetur sapiente beatae iusto quod debitis error cupiditate alias iure aliquam omnis officia? Vitae dignissimos officiis praesentium eligendi, ex fugiat tempore rerum adipisci, iusto, deleniti quae nemo dolorem optio blanditiis quaerat quod necessitatibus est. Culpa asperiores eius magni nulla, voluptate quis! Minima soluta error tenetur impedit, quidem earum itaque? Totam harum obcaecati architecto eligendi deleniti quaerat corrupti nisi amet tenetur? Iusto deserunt itaque, sapiente asperiores harum exercitationem, reiciendis delectus nemo officia fuga adipisci eligendi, tenetur eius provident. Cum esse tempore sapiente eum dolorum fugiat ipsa explicabo, nisi ut quis perspiciatis laborum saepe voluptas autem aperiam molestiae aspernatur provident id quisquam qui. Aperiam repellat nemo explicabo non tempore sapiente sint, ad blanditiis dolores corporis minus dicta assumenda facere pariatur dolorum quas. Laboriosam similique quaerat cumque provident distinctio tenetur rem libero repudiandae sint harum doloribus iure dolorem error maxime, unde sapiente! Dolore quod praesentium harum error velit ducimus, consectetur exercitationem nulla sequi optio! Enim animi veniam accusamus in doloremque ullam distinctio, beatae dolorem voluptates est ducimus adipisci cumque itaque tenetur ipsum odio? Vitae, voluptatem! Eius ipsam aliquid nisi quos, soluta temporibus aliquam. Iure voluptates distinctio magnam ipsa, eum eos aut sunt nemo praesentium ea ducimus, cum, recusandae impedit quibusdam? Illo commodi dignissimos nemo? Corrupti officiis aperiam atque perspiciatis labore vel pariatur nisi nihil! Doloribus blanditiis soluta velit aspernatur dolorum repellendus quos, reprehenderit consectetur modi nemo. Exercitationem facere eius laudantium perferendis error reiciendis maiores enim provident illum placeat magni recusandae aliquid asperiores eveniet cum, velit distinctio soluta facilis nam temporibus consectetur. Ad eius ab saepe minima debitis, eligendi et recusandae cumque blanditiis! Iusto suscipit commodi, earum ipsa sit a sequi fuga, officiis quam asperiores voluptatum iure dolor veniam magnam culpa doloremque quibusdam, nulla cupiditate quae quisquam rerum illum! A cumque tempora sed quo quam sunt itaque sit rem accusamus vel sapiente adipisci nesciunt voluptate error minus accusantium dolor, optio natus illum. Illo, dolorum consectetur.</p>
+    </div>
+    <div class="max-width-1 m-auto"><hr /></div>
+    <div class="home-articles m-auto max-width-1 font2 my-2">
+      <p id="fetu">People who read this also read</p>
+      <div class="row">
+      <div class="home-article more-post">
+        <div class="home-article-img">
+          <img src="img/4.png" alt="article" />
+        </div>
+        <div class="home-article-content font1 center">
+          <a href="/blogpost.html">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </h3></a
+          >
+          <div>Author Name</div>
+          <span>7th Jan | 8min reads</span>
+        </div>
+      </div>
+      <div class="home-article more-post">
+        <div class="home-article-img">
+          <img src="img/1.png" alt="article" />
+        </div>
+        <div class="home-article-content center font1">
+          <a href="/blogpost.html">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </h3></a
+          >
+          <div>Author Name</div>
+          <span>7th Jan | 8min reads</span>
+        </div>
+      </div>
+      <div class="home-article more-post">
+        <div class="home-article-img">
+          <img src="img/3.png" alt="article" />
+        </div>
+        <div class="home-article-content center font1">
+          <a href="/blogpost.html">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </h3></a
+          >
+          <div>Author Name</div>
+          <span>7th Jan | 8min reads</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer m-auto my-2">
+      <p>Copyright &copy; Easy.com &
+        <a  href="https://www.vecteezy.com/free-vector/school">Vecteezy</a>
+      </p>
+    </div>
+  </body>
+</html>

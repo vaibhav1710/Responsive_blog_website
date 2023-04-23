@@ -1,0 +1,32 @@
+@media screen  and (max-width:1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .nav-left{
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .content-right{
+      display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+        text-align: center;
+    }
+    .year-box{
+        top:20px;
+        font-size: 11px;
+        display: flex;
+    }
+ .row{
+    flex-direction: column;
+ }
+    .year-box div{
+        padding: 0px 6px;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,43 @@
+.contact{
+    display: block;
+    margin-top: 25px;
+    height:400px;
+    height:80vh;
+     padding: 9px;
+     position:relative;
+     overflow: hidden;
+}
+.contact::after{
+    content: "";
+    background-image: url('../img/arti1.jpg');
+    position: absolute;
+    top: 0;
+    background-repeat:no-repeat ;
+    height:inherit;
+    width:100%;
+    opacity: 0.16;
+    z-index: -1;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.search:hover{
+    background-color: var(--main-bg-color);
+}
